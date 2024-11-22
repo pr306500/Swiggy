@@ -1,0 +1,32 @@
+1. Emmet is responsible for genrating some code for us..
+2. Browsers have in-built js engines to understand the javascript code
+   but browser does not know what is react.
+3. CDN Links for React JS : They are the content delivery network, these are websites where react js is hoisted
+   & we are pulling react from there.
+
+   -> What is CDN & Why do we use it. ?
+   -> What is cross origin ? 
+
+4. After importing the CDM react link, now our project & browser both can understand react.js
+   Open the file in browser, open on console tab -> simply type React (will see the resp..)
+
+5. The react-dom is the bridge b/w react & dom.
+----------------------------[31:40]-------------------------------------------- 
+
+In git ignore,
+- we put node_modules.
+- we don't put package, pacjage-lock.json file..
+*. If we package, pacjage-lock.json, we can easily re-create node_modules..
+*. Whatever we can re-generate on server don't put it in git..
+
+-------------------------------
+
+- npx parcel build <index.html>
+
+-------------------------------
+
+Things to revise frequently : (revise twice a week..)
+- Router (1st day)
+- Context API (1st day)
+- Redux (2nd day)
+- Advance Hooks : [ memo, useMemo, useCallback ] (3rd day)
